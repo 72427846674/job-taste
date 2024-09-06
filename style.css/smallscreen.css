@@ -1,0 +1,29 @@
+@media screen and (max-width: 765px) {
+    body {
+        font-size: smaller;
+    }
+    div {
+        padding: 2%;
+    }
+    .featured-img {
+        display: none;
+    }
+    .main {
+        background-image: url(/images/businesswomen.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 95vh;
+        width: 100%;
+        }
+    .btn0, .btn1 {
+        height: 30px;
+        width: 80px;
+    }
+    .search-bar{
+        width: 200px;
+        font-size: 12px;
+    }
+    .head-img .btn0{
+        display: none;
+    }
+}
